@@ -1,8 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/logo.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -24,11 +25,26 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Perpustakaan Online</title>
+
+    <style>
+      #splash{
+        width: 100%;
+        height: 300px;
+        font-size: 50px;
+        text-align: center;
+        margin-top: 200px;
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+      <div id="splash" >
+        <h3 id="text" style="font-size: 40px;"></h3>
+      </div>
+
+      <div id="root">
+      </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -39,5 +55,32 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="http://code.jquery.com/jquery-3.1.1.js"></script>
+    <script type="text/javascript">
+    document.getElementById("root").style.display="none";
+      var counter = 0;
+      var interval = setInterval(function() {
+          counter++;
+          // Display 'counter' wherever you want to display it.
+          if (counter == 5) {
+              // Display a login box
+              clearInterval(interval);
+              document.getElementById("root").style.display="block";
+              document.getElementById("splash").style.display="none";
+          }
+          if (counter == 1) {
+            document.getElementById("text").innerText = "Selamat";
+          }
+          if (counter == 2) {
+            document.getElementById("text").innerText = "Datang";
+          }
+          if (counter == 3) {
+            document.getElementById("text").innerText = "Di Kelompok";
+          }
+          if (counter == 4) {
+            document.getElementById("text").innerText = "Sundar Pichai";
+          }
+      }, 1000);
+  </script>
   </body>
 </html>
