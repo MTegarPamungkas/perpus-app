@@ -23,6 +23,8 @@ const Jenis = (Props) => {
   return (
     <div>
       <Box py={20} style={styles}>
+        <br/>
+        <br/>
       <h1 style={{textAlign:'center'}}>{Props.match.params.nama}</h1>
       {(() => {
         if (data==="Novel") {
