@@ -31,7 +31,7 @@ const Jenis = (Props) => {
                 <Container>
                     <Row className="justify-content-md-center" style={{marginTop:"20px"}}>
                         <Col md={3}>
-                            <a href={akuMencintaimu} target="_blank" style={{textDecoration:'none'}}>
+                            <a href={akuMencintaimu} target="_blank" rel="noreferrer" style={{textDecoration:'none'}}>
                                 <Card>
                                     <Card.Body >
                                     <Card.Img variant="top" style={{ height:'20rem'}} src={novel1} />
@@ -42,7 +42,7 @@ const Jenis = (Props) => {
                         </Col>
 
                         <Col md={3}>
-                            <a href={jomblo} target="_blank" style={{textDecoration:'none'}}>
+                            <a href={jomblo} target="_blank" rel="noreferrer" style={{textDecoration:'none'}}>
                                 <Card>
                                     <Card.Body >
                                     <Card.Img variant="top" style={{ height:'20rem'}} src={novel2} />
@@ -53,7 +53,7 @@ const Jenis = (Props) => {
                         </Col>
 
                         <Col md={3}>
-                            <a href={theTriumphantChruch} target="_blank" style={{textDecoration:'none'}}>
+                            <a href={theTriumphantChruch} target="_blank" rel="noreferrer" style={{textDecoration:'none'}}>
                                 <Card>
                                     <Card.Body >
                                     <Card.Img variant="top" style={{ height:'20rem'}} src={novel3} />
@@ -72,7 +72,7 @@ const Jenis = (Props) => {
                 <Container>
                     <Row className="justify-content-md-center" style={{marginTop:"20px"}}>
                         <Col md={3}>
-                            <a href={revolusiMalaikat} target="_blank" style={{textDecoration:'none'}}>
+                            <a href={revolusiMalaikat} target="_blank" rel="noreferrer" style={{textDecoration:'none'}}>
                                 <Card>
                                     <Card.Body >
                                     <Card.Img variant="top" style={{ height:'20rem'}} src={comic1} />
@@ -83,7 +83,7 @@ const Jenis = (Props) => {
                         </Col>
 
                         <Col md={3}>
-                            <a href={doraemonSpecial} target="_blank" style={{textDecoration:'none'}}>
+                            <a href={doraemonSpecial} target="_blank" rel="noreferrer" style={{textDecoration:'none'}}>
                                 <Card>
                                     <Card.Body >
                                     <Card.Img variant="top" style={{ height:'20rem'}} src={comic2} />
@@ -94,7 +94,7 @@ const Jenis = (Props) => {
                         </Col>
 
                         <Col md={3}>
-                            <a href={dragonball} target="_blank" style={{textDecoration:'none'}}>
+                            <a href={dragonball} target="_blank" rel="noreferrer" style={{textDecoration:'none'}}>
                                 <Card>
                                     <Card.Body >
                                     <Card.Img variant="top" style={{ height:'20rem'}} src={comic3} />
