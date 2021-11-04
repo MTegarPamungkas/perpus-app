@@ -29,6 +29,7 @@ import {
       <div>
         <Box py={20} style={styles} textAlign="center">
           <br/>
+          <br/>
           <h3>Daftar Kelompok Sundar Pichai</h3>
           <br/>
           <Container>

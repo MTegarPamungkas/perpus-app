@@ -23,6 +23,7 @@ import {
         <Box py={20} style={styles} textAlign="center">
 
           <br/>
+          <br/>
           <h1>PILIH JENIS BUKU</h1>
           <br/>
           <Container>
