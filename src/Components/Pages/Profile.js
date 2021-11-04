@@ -7,14 +7,21 @@ import {
   } from "@material-ui/core";
   import { Link } from "react-router-dom";
   import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
-  import ChevronRightIcon from "@material-ui/icons/ChevronRight";
-  import SchoolIcon from "@material-ui/icons/School";
-  import BookmarksIcon from "@material-ui/icons/Bookmarks";
+  import Book from '@material-ui/icons/LibraryBooks';
   import { Container, Row, Col,Card } from 'react-bootstrap';
 
-  import gambar1 from './image/15.jpg';
+  import gambar1 from './image/person.PNG';
   import yusma from './image/yusma.jpg';
   import tegar from './image/tegar.png';
+  import kebar from './image/kebar.png';
+  import alfian from './image/alfian.jpg';
+  import bagas from './image/bagas.jpg';
+  import divasetya from './image/divasetya.jpeg';
+  import elis from './image/elis.jpg';
+  import risa from './image/risa.jpg';
+  import tarida from './image/tarida.jpg';
+  import teuku from './image/teuku.jpeg';
+
   
   const About = () => {
     const isMobile = useMediaQuery((theme) => theme.breakpoints.down("sm"));
@@ -43,13 +50,13 @@ import {
               </Col>
               <Col md={4}>
                 <Card style={{ width: '100%' }}>
-                  <Card.Img variant="top" style={{ height:'20rem'}} src={gambar1} />
+                  <Card.Img variant="top" style={{ height:'20rem'}} src={kebar} />
                   <Card.Body>
                     <Card.Title>Akbar Nugraha Dimyanti</Card.Title>
                     <br/>
-                    2110631170085
+                    2110631170045
                     <br/>
-                    Bogor, 24 Desember 2002
+                    Purwakarta, 16 Oktober 2002
                     <Card.Text>
                       Ketua Kelompok
                     </Card.Text>
@@ -58,13 +65,13 @@ import {
               </Col>
               <Col md={4}>
                 <Card style={{ width: '100%' }}>
-                  <Card.Img variant="top" style={{ height:'20rem'}} src={gambar1} />
+                  <Card.Img variant="top" style={{ height:'20rem'}} src={elis} />
                   <Card.Body>
                     <Card.Title>Elis</Card.Title>
                     <br/>
-                    2110631170085
+                    2110631170012
                     <br/>
-                    Bogor, 24 Desember 2002
+                    Karawang, 06 juli 2003
                     <Card.Text>
                       Anggota Kelompok
                     </Card.Text>
@@ -80,13 +87,13 @@ import {
             <Row>
               <Col md={4}>
                 <Card style={{ width: '100%' }}>
-                  <Card.Img variant="top" style={{ height:'20rem'}} src={gambar1} />
+                  <Card.Img variant="top" style={{ height:'20rem'}} src={bagas} />
                   <Card.Body>
                     <Card.Title>Bagas Aqmal Febrianto</Card.Title>
                     <br/>
-                    2110631170085
+                    2110631170056
                     <br/>
-                    Bogor, 24 Desember 2002
+                    Brebes, 28 Februari 2002
                     <Card.Text>
                        Anggota Kelompok
                     </Card.Text>
@@ -110,13 +117,13 @@ import {
               </Col>
               <Col md={4}>
                 <Card style={{ width: '100%' }}>
-                  <Card.Img variant="top" style={{ height:'20rem'}} src={gambar1} />
+                  <Card.Img variant="top" style={{ height:'20rem'}} src={risa} />
                   <Card.Body>
-                    <Card.Title>Eddy Ryansyah</Card.Title>
+                    <Card.Title>Risa Nur Fitriyani</Card.Title>
                     <br/>
-                    2110631170085
+                    2110631170103
                     <br/>
-                    Bogor, 24 Desember 2002
+                    Kuningan, 27 November 2002
                     <Card.Text>
                       Anggota Kelompok
                     </Card.Text>
@@ -130,13 +137,13 @@ import {
             <Row>
               <Col md={4}>
                 <Card style={{ width: '100%' }}>
-                  <Card.Img variant="top" style={{ height:'20rem'}} src={gambar1} />
+                  <Card.Img variant="top" style={{ height:'20rem'}} src={divasetya} />
                   <Card.Body>
                     <Card.Title>Divasetya Pratama Putri</Card.Title>
                     <br/>
-                    2110631170085
+                    2110631170009
                     <br/>
-                    Bogor, 24 Desember 2002
+                    Semarang, 1 Februari 2003
                     <Card.Text>
                     Anggota Kelompok
                     </Card.Text>
@@ -195,13 +202,13 @@ import {
               </Col>
               <Col md={4}>
                 <Card style={{ width: '100%' }}>
-                  <Card.Img variant="top" style={{ height:'20rem'}} src={gambar1} />
+                  <Card.Img variant="top" style={{ height:'20rem'}} src={teuku} />
                   <Card.Body>
                     <Card.Title>Teuku Nurmansyah Puteh</Card.Title>
                     <br/>
-                    2110631170085
+                    2110631170111
                     <br/>
-                    Bogor, 24 Desember 2002
+                    Serang, 26 Oktober 2001
                     <Card.Text>
                       Anggota Kelompok
                     </Card.Text>
@@ -210,7 +217,7 @@ import {
               </Col>
               <Col md={4}>
                 <Card style={{ width: '100%' }}>
-                  <Card.Img variant="top" style={{ height:'20rem'}} src={gambar1} />
+                  <Card.Img variant="top" style={{ height:'20rem'}} src={tarida} />
                   <Card.Body>
                     <Card.Title>Tarida Grace Wahyuni Margaretha Sidabutar</Card.Title>
                     <br/>
@@ -245,13 +252,13 @@ import {
               </Col>
               <Col md={4}>
                 <Card style={{ width: '100%' }}>
-                  <Card.Img variant="top" style={{ height:'20rem'}} src={gambar1} />
+                  <Card.Img variant="top" style={{ height:'20rem'}} src={alfian} />
                   <Card.Body>
                     <Card.Title>Alfian Nursahbani</Card.Title>
                     <br/>
-                    2110631170085
+                    2110631170046
                     <br/>
-                    Bogor, 24 Desember 2002
+                    Subang 30 september 2003
                     <Card.Text>
                       Anggota Kelompok
                     </Card.Text>
@@ -279,6 +286,21 @@ import {
           <br/>
           <Container>
             <Row>
+            <Col md={4}>
+                <Card style={{ width: '100%' }}>
+                  <Card.Img variant="top" style={{ height:'20rem'}} src={gambar1} />
+                  <Card.Body>
+                    <Card.Title>Eddy Ryansyah</Card.Title>
+                    <br/>
+                    2110631170085
+                    <br/>
+                    Bogor, 24 Desember 2002
+                    <Card.Text>
+                      Anggota Kelompok
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
               <Col md={4}>
                 <Card style={{ width: '100%' }}>
                   <Card.Img variant="top" style={{ height:'20rem'}} src={gambar1} />
@@ -308,19 +330,7 @@ import {
               >
                 <ChevronLeftIcon />
                 <Typography variant="button">Books</Typography>
-                <SchoolIcon style={{ marginLeft: 15 }} />
-              </Button>
-            </Grid>
-            <Grid item>
-              <Button
-                variant="contained"
-                color="primary"
-                component={Link}
-                to="/Personal"
-              >
-                <BookmarksIcon style={{ marginRight: 15 }} />
-                <Typography variant="button">Language</Typography>
-                <ChevronRightIcon />
+                <Book style={{ marginLeft: 15 }} />
               </Button>
             </Grid>
           </Grid>

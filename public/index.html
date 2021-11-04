@@ -30,10 +30,10 @@
     <style>
       #splash{
         width: 100%;
-        height: 300px;
+        height: 550px;
         font-size: 50px;
         text-align: center;
-        margin-top: 200px;
+        margin-top: 100px;
       }
     </style>
   </head>
@@ -41,6 +41,7 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
       <div id="splash" >
         <h3 id="text" style="font-size: 40px;"></h3>
+        <img src="%PUBLIC_URL%/logo2.gif" height="250rem" style="border-radius: 30px;" alt="">
       </div>
 
       <div id="root">
@@ -62,7 +63,7 @@
       var interval = setInterval(function() {
           counter++;
           // Display 'counter' wherever you want to display it.
-          if (counter == 5) {
+          if (counter == 7) {
               // Display a login box
               clearInterval(interval);
               document.getElementById("root").style.display="block";
@@ -75,10 +76,10 @@
             document.getElementById("text").innerText = "Datang";
           }
           if (counter == 3) {
-            document.getElementById("text").innerText = "Di Kelompok";
+            document.getElementById("text").innerText = "Di";
           }
           if (counter == 4) {
-            document.getElementById("text").innerText = "Sundar Pichai";
+            document.getElementById("text").innerText = "Perpustakaan Online";
           }
       }, 1000);
   </script>

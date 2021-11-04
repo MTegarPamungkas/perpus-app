@@ -1,9 +1,8 @@
 import { Box, Typography, useMediaQuery, Button } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
-import SchoolIcon from "@material-ui/icons/School";
+import Book from '@material-ui/icons/LibraryBooks';
 import { Carousel,Container, Row, Col } from 'react-bootstrap';
-
 import gambar1 from './image/12.jpg';
 import gambar2 from './image/13.jpg';
 import gambar3 from './image/15.jpg';
@@ -66,7 +65,7 @@ const Home = () => {
             color="primary"
             to="/Books"
           >
-            <SchoolIcon style={{ marginRight: 15 }} />
+            <Book style={{ marginRight: 15 }} />
             <Typography variant="button">Books</Typography>
             <ChevronRightIcon />
           </Button>

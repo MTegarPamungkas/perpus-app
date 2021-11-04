@@ -24,13 +24,12 @@ import HomeIcon from "@material-ui/icons/Home";
 import PersonIcon from "@material-ui/icons/Person";
 // import Bahasa from "@material-ui/icons/Bookmarks";
 import Book from '@material-ui/icons/LibraryBooks';
-import Bahasa from '@material-ui/icons/Language';
 
 // REACT APP IMPORTS
 import Home from "./Pages/Home";
 import Books from "./Pages/Books";
 import Profile from "./Pages/Profile";
-import Personal from "./Pages/Personal";
+import Jenis from "./Pages/Jenis";
 
 // LOCAL-STYLING
 const useStyles = makeStyles((theme) => ({
@@ -133,16 +132,6 @@ const Header = (props) => {
                       </ListItemIcon>
                       <Typography variant="h6"> Profile</Typography>
                     </MenuItem>
-                    <MenuItem
-                      onClick={() => setAnchor(null)}
-                      component={Link}
-                      to="/Personal"
-                    >
-                      <ListItemIcon>
-                        <Bahasa />
-                      </ListItemIcon>
-                      <Typography variant="h6"> Personal </Typography>
-                    </MenuItem>
                   </Menu>
                 </>
               ) : (
@@ -174,15 +163,6 @@ const Header = (props) => {
                     <PersonIcon />
                     Profile
                   </Button>
-                  <Button
-                    variant="text"
-                    component={Link}
-                    to="/Personal"
-                    color="default"
-                  >
-                    <Bahasa />
-                    Personal
-                  </Button>
                 </div>
               )}
             </Toolbar>
@@ -190,8 +170,8 @@ const Header = (props) => {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/Books" component={Books} />
+            <Route exact path="/Books/Jenis/:nama" component={Jenis} />
             <Route exact path="/Profile" component={Profile} />
-            <Route exact path="/Personal" component={Personal} />
           </Switch>
         </BrowserRouter>
       </HideOnScroll>

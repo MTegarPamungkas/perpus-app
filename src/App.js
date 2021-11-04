@@ -6,6 +6,7 @@ import { Paper } from "@material-ui/core";
 import { green, orange } from "@material-ui/core/colors";
 import Footer from "./Components/Footer";
 
+
 const theme = createTheme({
   typography: {
     h1: {
@@ -30,6 +31,7 @@ function App() {
         <Header />  
       </Paper>
       <Footer/>
+
     </ThemeProvider>
   );
 }
