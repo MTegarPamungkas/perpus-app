@@ -27,7 +27,7 @@ const theme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Paper style={{ height: "auto",marginTop:'-16vh',background:'#fff' }}>
+      <Paper style={{ height: "auto",marginTop:'-15vh',background:'#fff' }}>
         <Header />  
       </Paper>
       <Footer/>
